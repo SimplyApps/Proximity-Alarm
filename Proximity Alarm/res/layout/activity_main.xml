@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0RO1p1hI21NLh_k61lu9PiwAh9Z-Za2ESsC4EwA"
+        android:clickable="true" >
+    </com.google.android.maps.MapView>
+
+    <ImageButton
+        android:id="@+id/buttonShowResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_agenda"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/buttonToggleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_view" />
+
+    <arm.proximity.alarm.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </arm.proximity.alarm.SearchView>
+
+</RelativeLayout>

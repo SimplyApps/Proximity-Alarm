@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Proximity Alarm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Proximity Alarm</string>
+    <string name="menu_search">Search</string>
+    <string name="search_hint">Input search</string>
+
+</resources>
