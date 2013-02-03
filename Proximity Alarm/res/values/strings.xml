@@ -5,6 +5,6 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Proximity Alarm</string>
     <string name="menu_search">Search</string>
-    <string name="search_hint">Input search</string>
+    <string name="search_hint">Search Location</string>
 
 </resources>
